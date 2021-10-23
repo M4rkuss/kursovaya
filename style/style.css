@@ -1,0 +1,17 @@
+*,html,body{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container{
+    max-width: 1330px;
+    margin: 0 auto;
+}
+
+#header-section{
+    background: ;
+}
