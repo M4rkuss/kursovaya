@@ -310,31 +310,31 @@ h1, h2, h3{
     color: red;
 }
 
-#links .links-wrap h3, #links-css .links-css-wrap h3{
+#links .links-wrap h3{
     font-size: 30px;
     font-weight: 700;
     color: red;
     margin-top: 30px;
 }
 
-#links .links-wrap ul, #links-css .links-css-wrap ul{
+#links .links-wrap ul{
     margin-left: 30px;
     margin-top: 10px;
 }
 
-#links .links-wrap li, #links-css .links-css-wrap li{
+#links .links-wrap li{
     font-size: 24px;
     font-family: "Open Sans";
     color: #272a33;
     list-style-type: decimal;
 }
 
-#links .links-wrap a, #links-css .links-css-wrap a{
+#links .links-wrap a{
     color: #989159;
     transition: 0.3s ease;
 }
 
-#links .links-wrap a:hover, #links-css .links-css-wrap a:hover{
+#links .links-wrap a:hover{
     color: #c8bf76;
 }
 
@@ -364,12 +364,12 @@ h1, h2, h3{
 }
 
 /*page css*/
-#connection .connection-wrap ul{
+.spisok .connection-wrap ul{
     margin-left: 30px;
     margin-top: 10px;
 }
 
-#connection .connection-wrap li{
+.spisok .connection-wrap li{
     list-style-type: decimal;
     font-family: "Open Sans";
     font-weight: 700;
@@ -378,13 +378,13 @@ h1, h2, h3{
     margin-bottom: 20px;
 }
 
-#connection .connection-wrap li p:nth-child(1){
+.spisok .connection-wrap li p:nth-child(1){
     color: red;
     font-weight: 700;
     font-size: 30px;
 }
 
-#connection .connection-wrap li span{
+.spisok .connection-wrap li span{
     color: hotpink;
 }
 
@@ -427,4 +427,17 @@ h1, h2, h3{
     color: red;
     font-weight: 700;
     margin-top: 20px;
+}
+
+#bg-line4{
+    background: url("../image/line.jpg") no-repeat;
+    background-size: 100%;
+    height: 22px;
+}
+
+/*page js*/
+#bg-line5{
+    background: url("../image/line.jpg") no-repeat;
+    background-size: 100%;
+    height: 22px;
 }
