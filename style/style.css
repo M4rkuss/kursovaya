@@ -287,8 +287,8 @@ h1, h2, h3{
     margin-top: 10px;
 }
 
-/*page html css*/
-#about .about-text span{
+/*page html*/
+#about .about-text span, #about-css .about-css-text span{
     color: red;
 }
 
@@ -310,31 +310,31 @@ h1, h2, h3{
     color: red;
 }
 
-#links .links-wrap h3{
+#links .links-wrap h3, #links-css .links-css-wrap h3{
     font-size: 30px;
     font-weight: 700;
     color: red;
     margin-top: 30px;
 }
 
-#links .links-wrap ul{
+#links .links-wrap ul, #links-css .links-css-wrap ul{
     margin-left: 30px;
     margin-top: 10px;
 }
 
-#links .links-wrap li{
+#links .links-wrap li, #links-css .links-css-wrap li{
     font-size: 24px;
     font-family: "Open Sans";
     color: #272a33;
     list-style-type: decimal;
 }
 
-#links .links-wrap a{
+#links .links-wrap a, #links-css .links-css-wrap a{
     color: #989159;
     transition: 0.3s ease;
 }
 
-#links .links-wrap a:hover{
+#links .links-wrap a:hover, #links-css .links-css-wrap a:hover{
     color: #c8bf76;
 }
 
@@ -361,4 +361,70 @@ h1, h2, h3{
 
 .links-buttons .link-btn a:hover{
     background: #444751;
+}
+
+/*page css*/
+#connection .connection-wrap ul{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#connection .connection-wrap li{
+    list-style-type: decimal;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 30px;
+    color: red;
+    margin-bottom: 20px;
+}
+
+#connection .connection-wrap li p:nth-child(1){
+    color: red;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+#connection .connection-wrap li span{
+    color: hotpink;
+}
+
+#rules .rules-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rules-wrap .rules-wrap-item ul{
+    margin-left: 30px;
+}
+
+.rules-wrap .rules-wrap-item li{
+    list-style-type: decimal;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.rules-wrap .rules-wrap-item li p span{
+    color: red;
+}
+
+.rules-wrap .rules-wrap-item p:nth-child(5){
+    color: red;
+    margin-top: 15px;
+}
+
+.rules-wrap .rules-wrap-item img{
+    width: 600px;
+}
+
+#layouts .layouts-wrap p span{
+    color: red;
+}
+
+.layouts-wrap h3{
+    font-size: 30px;
+    color: red;
+    font-weight: 700;
+    margin-top: 20px;
 }
