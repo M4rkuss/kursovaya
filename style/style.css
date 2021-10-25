@@ -45,7 +45,7 @@ p{
     color: #272a33;
 }
 
-h1, h2{
+h1, h2, h3{
     font-family: "Open Sans";
     font-weight: 700;
     color: #272a33;
@@ -104,17 +104,23 @@ h1, h2{
 .main-zag{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
     margin-top: 20%;
+    align-items: center;
 }
 
 .main-zag h1{
     color: #fff;
     font-size: 100px;
+}
+.main-zag h2{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 150px;
 }
 
 .section-zag{
@@ -279,4 +285,80 @@ h1, h2{
 
 .secondary-text p:nth-child(2){
     margin-top: 10px;
+}
+
+/*page html css*/
+#about .about-text span{
+    color: red;
+}
+
+#structure .structure-text span{
+    color: hotpink;
+}
+
+#main-tags .main-tags-wrap .tags-wrap-head span{
+    color: hotpink;
+}
+
+.tags-wrap-foot{
+    margin-top: 40px;
+}
+
+.tags-wrap-foot h3{
+    font-size: 50px;
+    font-weight: 700;
+    color: red;
+}
+
+#links .links-wrap h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: red;
+    margin-top: 30px;
+}
+
+#links .links-wrap ul{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#links .links-wrap li{
+    font-size: 24px;
+    font-family: "Open Sans";
+    color: #272a33;
+    list-style-type: decimal;
+}
+
+#links .links-wrap a{
+    color: #989159;
+    transition: 0.3s ease;
+}
+
+#links .links-wrap a:hover{
+    color: #c8bf76;
+}
+
+.links-wrap-foot{
+    margin-bottom: 100px;
+}
+
+.links-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.links-buttons .link-btn a{
+    background: #272a33;
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 400;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-align: center;
+    transition: .3s ease;
+}
+
+.links-buttons .link-btn a:hover{
+    background: #444751;
 }
