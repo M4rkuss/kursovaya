@@ -51,15 +51,24 @@
             <ul>
                 <li>
                     <p>Внутрішній</p>
-                    <p>Внутрішні стилі визначаються в елементі <span>&lt;script&gt;</span>, у розділі <span>&lt;script&gt;</span> або <span>&lt;body&gt;</span> сторінки HTML.</p>
+                    <p>Внутрішній js-код визначається в елементі <span>&lt;script&gt;</span>, у розділі <span>&lt;script&gt;</span> або <span>&lt;body&gt;</span> сторінки HTML.</p>
+                    <p class="code-exmpl" onclick="func1()">Подивитися код</p>
+                    <p id="code1"></p>
+                    <br>
                 </li>
                 <li>
                     <p>Вбудований</p>
-                    <p>Вбудовані стилі визначаються в атрибуті <span style="color: red">події</span> (як в прикладі коду) відповідного елемента.</p>
+                    <p>Вбудований js-код визначається в атрибуті <span style="color: red">події</span> (як в прикладі коду) відповідного елемента.</p>
+                    <p class="code-exmpl" onclick="func2()">Подивитися код</p>
+                    <p id="code2"></p>
+                    <br>
                 </li>
                 <li>
                     <p>Зовнішній</p>
-                    <p>Зовнішні стилі визначаються в елементі <span>&lt;script&gt;</span>, у розділі <span>&lt;head&gt;</span> або <span>&lt;body&gt;</span> сторінки HTML. Це окремий файл з розширенням .js.</p>
+                    <p>Зовнішній js-код визначається в елементі <span>&lt;script&gt;</span>, у розділі <span>&lt;head&gt;</span> або <span>&lt;body&gt;</span> сторінки HTML. Це окремий файл з розширенням .js.</p>
+                    <p class="code-exmpl" onclick="func3()">Подивитися код</p>
+                    <p id="code3"></p>
+                    <br>
                 </li>
             </ul>
         </div>
@@ -74,7 +83,10 @@
             <h2>Структура коду</h2>
         </div>
         <div class="about-css-text">
-            <p>Для роботи в JS використовуються так звані «<span style="color: red">інструкції</span>» - команди, які виконують якісь дії. Кожна інструкція відділяється крапкою з комою. Для більшого розуміння коду рекомендовано писати кожну інструкці. з нового рядка.</p>
+            <p>Для роботи в JS використовуються так звані «<span style="color: red">інструкції</span>» - команди, які виконують якісь дії. Кожна інструкція відділяється крапкою з комою. Для більшого розуміння коду рекомендовано писати кожну інструкцію з нового рядка.</p>
+            <p class="code-exmpl" onclick="func4()">Приклад коду</p>
+            <p id="code4"></p>
+            <br>
         </div>
     </div>
 </section>
@@ -93,15 +105,24 @@
             <ul>
                 <li>
                     <p>var</p>
-                    <p>Трішки застарілий варіант задання змінних, Означає, практично, те саме, що й <span style="color: red">let</span>. Однак інує невелика різниця, більше детально про це на інтернет-ресурсах.</p>
+                    <p>Трішки застарілий варіант задання змінних, Означає, практично, те саме, що й <span style="color: red">let</span>. Однак існує невелика різниця, більше детально про це на інтернет-ресурсах.</p>
+                    <p class="code-exmpl" onclick="func5()">Приклад коду</p>
+                    <p id="code5"></p>
+                    <br>
                 </li>
                 <li>
                     <p>let</p>
-                    <p>Працює так само, як var. Можливо перезаписувати, змінювати значення стільки раз, скіль захочимо самі. Однак повторна спроба об’яви змінної буде помилкою.</p>
+                    <p>Працює так само, як var. Можливо перезаписувати, змінювати значення стільки раз, скільки захочемо самі. Однак повторна спроба об’яви змінної буде помилкою.</p>
+                    <p class="code-exmpl" onclick="func6()">Приклад коду</p>
+                    <p id="code6"></p>
+                    <br>
                 </li>
                 <li>
                     <p>const</p>
                     <p>Третій тип змінних є константа. Вона є незмінною. Будь-яка спроба її змінити виявиться помилкою.  Зазвичай ідентифікатори пишуться у верхньому регістрі..</p>
+                    <p class="code-exmpl" onclick="func7()">Приклад коду</p>
+                    <p id="code7"></p>
+                    <br>
                 </li>
             </ul>
         </div>
@@ -120,27 +141,51 @@
             <ul>
                 <li>
                     <p>number <span style="color:#272a33;">(ціле або з плавоючою точкою)</span></p>
+                    <p class="code-exmpl" onclick="func8()">Приклад коду</p>
+                    <p id="code8"></p>
+                    <br>
                 </li>
                 <li>
                     <p>bigint <span style="color:#272a33;">(цілі числа довільної довжини)</span></p>
+                    <p class="code-exmpl" onclick="func9()">Приклад коду</p>
+                    <p id="code9"></p>
+                    <br>
                 </li>
                 <li>
                     <p>string <span style="color:#272a33;">(строка)</span></p>
+                    <p class="code-exmpl" onclick="func10()">Приклад коду</p>
+                    <p id="code10"></p>
+                    <br>
                 </li>
                 <li>
                     <p>boolean <span style="color:#272a33;">(булевий тип)</span></p>
+                    <p class="code-exmpl" onclick="func11()">Приклад коду</p>
+                    <p id="code11"></p>
+                    <br>
                 </li>
                 <li>
                     <p>null <span style="color:#272a33;">(для невідомих значень)</span></p>
+                    <p class="code-exmpl" onclick="func12()">Приклад коду</p>
+                    <p id="code12"></p>
+                    <br>
                 </li>
                 <li>
                     <p>undefined <span style="color:#272a33;">(для неприсвоєних значень)</span></p>
+                    <p class="code-exmpl" onclick="func13()">Приклад коду</p>
+                    <p id="code13"></p>
+                    <br>
                 </li>
                 <li>
                     <p>object <span style="color:#272a33;">(тип, що зберігає пару ключ-значення)</span></p>
+                    <p class="code-exmpl" onclick="func14()">Приклад коду</p>
+                    <p id="code14"></p>
+                    <br>
                 </li>
                 <li>
                     <p>symbol <span style="color:#272a33;">(для унікальних ідентифікаторів)</span></p>
+                    <p class="code-exmpl" onclick="func15()">Приклад коду</p>
+                    <p id="code15"></p>
+                    <br>
                 </li>
             </ul>
             <br>
@@ -160,7 +205,7 @@
             <div class="links-wrap-body">
                 <h3>Інтернет-ресурси:</h3>
                 <ul>
-                    <li><p><a href="https://www.w3schools.com/css/default.asp" target="_blank">W3Schools</a> - ресурс, що містить велику базу учбових матеріалів(мова:  англійська)</p></li>
+                    <li><p><a href="https://www.w3schools.com/js/default.asp" target="_blank">W3Schools</a> - ресурс, що містить велику базу учбових матеріалів(мова:  англійська)</p></li>
                     <li><p><a href="https://developer.mozilla.org/ru/docs/Web/JavaScript" target="_blank">developer.mozilla.org</a> - посібник для початківців(мова: на вибір)</p></li>
                     <li><p><a href="https://learn.javascript.ru/" target="_blank">learn.javascript.ru</a> - сучасний підручник JavaScript(мова: російська)</p></li>
                     <li><p><a href="https://professorweb.ru/my/javascript/js_theory/level1/javascript_index.php" target="_blank">Professor Web</a> - підручник JavaScript(мова: російська)</p></li>
@@ -175,9 +220,9 @@
                     <li><p><a href="https://www.youtube.com/watch?v=HuPK6AwgzJc" target="_blank">BrainsCloud - Javascript с нуля - твой быстрый старт!</a> (мова: російська)</p></li>
                     <li><p><a href="https://www.youtube.com/watch?v=Bluxbh9CaQ0" target="_blank">Владилен Минин - JavaScript Основы для Начинающих</a> (мова: російська)</p></li>
                     <li><p><a href="https://www.youtube.com/playlist?list=PLcvhF2Wqh7DPD5sRK3lw4bjBsKdgY2bPi" target="_blank">IT-KAMASUTRA - плейліст «Уроки JavaScript с нуля»</a> (мова: російська)</p></li>
-                    <li><p><a href="https://www.youtube.com/watch?v=hdI2bqOjy3c" target="_blank">TraversyMedia - JavaScript Crash Course For Beginners</a> (мова: анлійська)</p></li>
-                    <li><p><a href="https://www.youtube.com/watch?v=W6NZfCO5SIk" target="_blank">Programing with Mosh - JavaScript Tutorial for Beginners</a> (мова: анлійська)</p></li>
-                    <li><p><a href="https://www.youtube.com/playlist?list=PLZlA0Gpn_vH9k5ju1yq9qCDqvtuTVgTr6" target="_blank">Web Dev Simplified - плейліст «Introduction to JavaScript»</a> (мова: анлійська)</p></li>
+                    <li><p><a href="https://www.youtube.com/watch?v=hdI2bqOjy3c" target="_blank">TraversyMedia - JavaScript Crash Course For Beginners</a> (мова: англійська)</p></li>
+                    <li><p><a href="https://www.youtube.com/watch?v=W6NZfCO5SIk" target="_blank">Programing with Mosh - JavaScript Tutorial for Beginners</a> (мова: англійська)</p></li>
+                    <li><p><a href="https://www.youtube.com/playlist?list=PLZlA0Gpn_vH9k5ju1yq9qCDqvtuTVgTr6" target="_blank">Web Dev Simplified - плейліст «Introduction to JavaScript»</a> (мова: англійська)</p></li>
                 </ul>
             </div>
         </div>
@@ -201,6 +246,8 @@
         <p>All rights reserved</p>
     </div>
 </footer>
+
+<script src="js.js"></script>
 
 </body>
 </html>

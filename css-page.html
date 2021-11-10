@@ -34,7 +34,7 @@
             <h2>Загальні відомості</h2>
         </div>
         <div class="about-css-text">
-            <p><span>CSS (Cascading Style Sheets)</span> - це код, який ви використовуєте для стилізації вашої веб-сторінки. Основною метою розробки CSS являлется опис зовнішнього вигляду веб-сторінки. Розмір та колір об’єктів, фонове зображення, розташування щодо інших елементів, поведінка при наведенні курсору, візуальна зміна кнопок при натисканні і т.п. Все це можна зробити за допомогою CSS.</p>
+            <p><span>CSS (Cascading Style Sheets)</span> - це код, який ви використовуєте для стилізації вашої веб-сторінки. Основною метою розробки CSS є опис зовнішнього вигляду веб-сторінки. Розмір та колір об’єктів, фонове зображення, розташування щодо інших елементів, поведінка при наведенні курсору, візуальна зміна кнопок при натисканні і т.д. Все це можна зробити за допомогою CSS.</p>
         </div>
     </div>
 </section>
@@ -52,15 +52,21 @@
                 <li>
                     <p>Внутрішній</p>
                     <p>Внутрішні стилі визначаються в елементі <span>&lt;style&gt;</span>, у розділі <span>&lt;head&gt;</span> сторінки HTML.</p>
+                    <p class="code-exmpl" onclick="func1()">Подивитися код</p>
+                    <p id="code1"></p>
                 </li>
                 <li>
                     <p>Вбудований</p>
                     <p>Вбудовані стилі визначаються в атрибуті <span>style</span> відповідного елемента.</p>
+                    <p class="code-exmpl" onclick="func2()">Подивитися код</p>
+                    <p id="code2"></p>
                 </li>
                 <li>
                     <p>Зовнішній</p>
                     <p>Зовнішні стилі визначаються в елементі <span>&lt;link&gt;</span>, у розділі <span>&lt;head&gt;</span> сторінки HTML.</p>
                     <p>Це окремий файл з розширенням .css.</p>
+                    <p class="code-exmpl" onclick="func3()">Подивитися код</p>
+                    <p id="code3"></p>
                 </li>
             </ul>
         </div>
@@ -104,16 +110,21 @@
 <section id="layouts" class="section-padding">
     <div class="container">
         <div class="section-zag">
-            <h2>Побудова мекетів веб-сторінок</h2>
+            <h2>Побудова макетів веб-сторінок</h2>
         </div>
         <div class="layouts-wrap">
             <p>Для побудови макетів веб-сторінок та розташування елементів застосовують дві технології: <span>flexbox</span> та <span>grid</span>.</p>
             <br>
             <h3>Flexbox</h3>
             <p>Відносно нова технологія, яка дуже швидко стала популярною серед розробників та браузерів. Головною особливістю є те, що технологія дозволяє розмістити елементи у вигляді <span>flex</span> блоків. Для цього використовується властивість зі значенням <span>display: flex</span>.</p>
+            <p class="code-exmpl" onclick="func4()">Подивитися код</p>
+            <p id="code4"></p>
             <br>
             <h3>Grid</h3>
             <p>Технологія, що дозволяє представити веб-сторінку у вигляді таблиці/сітки(можна задавати параметри столбців та колонок). Для застосування технології потрібно створити <span>grid-контейнер</span>, «діти» якого стануть елементами сітки.</p>
+            <p class="code-exmpl" onclick="func5()">Подивитися код</p>
+            <p id="code5"></p>
+            <br>
         </div>
     </div>
 </section>
@@ -141,7 +152,7 @@
                 <h3>YouTube-канали:</h3>
                 <ul>
                     <li><p><a href="https://www.youtube.com/playlist?list=PLNkWIWHIRwMHUawuIEpPI_tOG7Mfhs_sA" target="_blank">webDev - плейліст «CSS Basics»</a> (мова: російська)</p></li>
-                    <li><p><a href="https://www.youtube.com/playlist?list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-(kevin powell)" target="_blank">Kevin Powell - плейліст «HTML & CSS for beginners»</a> (мова: анлійська)</p></li>
+                    <li><p><a href="https://www.youtube.com/playlist?list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-" target="_blank">Kevin Powell - плейліст «HTML & CSS for beginners»</a> (мова: анлійська)</p></li>
                     <li><p><a href="https://www.youtube.com/watch?v=yfoY53QXEnI&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU&index=2" target="_blank">Traversy Media - CSS Crash Course For Absolute Beginners</a> (мова: англійська)</p></li>
                 </ul>
             </div>
@@ -166,6 +177,8 @@
         <p>All rights reserved</p>
     </div>
 </footer>
+<script src="css.js"></script>
+
 
 </body>
 </html>

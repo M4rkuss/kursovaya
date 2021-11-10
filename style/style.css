@@ -363,6 +363,15 @@ h1, h2, h3{
     background: #444751;
 }
 
+.base-str-title, .code-exmpl{
+    color: #d09a37;
+    cursor: pointer;
+    font-weight: bold;
+}
+.base-str-code{
+    font-size: 24px;
+}
+
 /*page css*/
 .spisok .connection-wrap ul{
     margin-left: 30px;
